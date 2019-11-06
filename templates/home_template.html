@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- W3Schools'daki Bootstrap Form örneği -->
+<html lang="tr">
+<head>
+  <title>Müşteri Kayıp Veri Kümesi Sınıflandırma</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Müşteri Kayıp Veri Kümesi Sınıflandırma</h2>
+  <form action="predict" method="POST">
+    <div class="form-group">
+      <label for="img">Credit Score</label>
+      <input class="form-control" id="data_1" placeholder="Credit Score" name="data_1" >
+    </div>
+    <div class="form-group">
+        <label for="img">Geography</label>
+        <select class="form-control" id="data_2" placeholder="Geography" name="data_2" >
+            <option value ="1">France</option>
+            <option value ="2">Germany</option>
+            <option value ="3">Spain</option>
+        </select>        
+    </div>
+    <div class="form-group">
+        <label for="img">Gender</label>
+        <select class="form-control" id="data_3" placeholder="Gender" name="data_3" >
+            <option value ="1">Male</option>
+            <option value ="2">Female</option>
+        </select> 
+    </div>
+    <div class="form-group">
+        <label for="img">Age</label>
+        <input class="form-control" id="data_4" placeholder="Age" name="data_4" >
+    </div>
+    <div class="form-group">
+        <label for="img">Tenure</label>
+        <input class="form-control" id="data_5" placeholder="Tenure" name="data_5" >
+    </div>
+    <div class="form-group">
+        <label for="img">Balance</label>
+        <input class="form-control" id="data_6" placeholder="Balance" name="data_6" >
+    </div>
+    <div class="form-group">
+        <label for="img">Num Of Products</label>
+        <input class="form-control" id="data_7" placeholder="Num Of Products" name="data_7" >
+    </div>
+    <div class="form-group">
+        <label for="img">Has CrCard</label>
+        <select class="form-control" id="data_8" placeholder="Has CrCard" name="data_8" >
+            <option value ="1">No</option>
+            <option value ="2">Yes</option>
+        </select> 
+    </div>
+    <div class="form-group">
+        <label for="img">Is Active Member</label>
+        <select class="form-control" id="data_9" placeholder="Is Active Member" name="data_9" >
+            <option value ="1">No</option>
+            <option value ="2">Yes</option>
+        </select> 
+    </div>
+    <div class="form-group">
+        <label for="img">Estimated Salary</label>
+        <input class="form-control" id="data_10" placeholder="Estimated Salary" name="data_10" >
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
